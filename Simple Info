@@ -1,0 +1,15 @@
+form>
+  <h2>Customize Your Will</h2>
+  <p>Please fill out the following form to specify your preferred beneficiaries and the distribution of your assets.</p>
+  <label for="fullName">Full Name:</label><br>
+  <input type="text" id="fullName" name="fullName"><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="beneficiaries">Beneficiaries:</label><br>
+  <textarea id="beneficiaries" name="beneficiaries"></textarea><br>
+  <label for="assets">Distribution of Assets:</label><br>
+  <textarea id="assets" name="assets"></textarea><br><br>
+  <label for="specialProvisions">Special Provisions:</label><br>
+  <textarea id="specialProvisions" name="specialProvisions"></textarea><br>
+  <input type="submit" value="Submit">
+</form>
