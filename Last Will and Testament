@@ -1,0 +1,29 @@
+<h1>Last Will and Testament</h1>
+
+<p>I, <span id="fullName"></span>, of <span id="address"></span>, declare this to be my last will and testament.</p>
+
+<h2>Personal Property</h2>
+
+<p>I give all of my personal property, including my household furnishings, clothing, and personal effects, to my spouse, <span id="spouseName"></span>, if they survive me. If my spouse does not survive me, I give my personal property to my children, <span id="childNames"></span>, in equal shares. If any of my children do not survive me, their share shall be distributed equally among their surviving children.</p>
+
+<h2>Real Property</h2>
+
+<p>I give all of my real property, wherever located, to my spouse, <span id="spouseName"></span>, if they survive me. If my spouse does not survive me, I give my real property to my children, <span id="childNames"></span>, in equal shares. If any of my children do not survive me, their share shall be distributed equally among their surviving children.</p>
+
+<h2>Executor</h2>
+
+<p>I appoint <span id="executorName"></span> to serve as the executor of this will. If they are unable or unwilling to serve, I appoint <span id="alternateExecutorName"></span> as alternate executor.</p>
+
+<h2>Witnesses</h2>
+
+<p>This will is executed by me in the presence of the witnesses, who have signed their names as witnesses in my presence and in the presence of each other.</p>
+
+<p>Signed this <span id="date"></span> day of <span id="month"></span>, <span id="year"></span>.</p>
+
+<p><span id="fullName"></span></p>
+
+<p>Witness 1: <span id="witness1Name"></span><br>
+Address: <span id="witness1Address"></span></p>
+
+<p>Witness 2: <span id="witness2Name"></span><br>
+Address: <span id="witness2Address"></span></p>
