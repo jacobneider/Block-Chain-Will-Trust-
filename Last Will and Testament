@@ -1,29 +1,92 @@
-<h1>Last Will and Testament</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Last Will and Testament</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        form {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Last Will and Testament</h1>
+    <form>
+        <div class="section">
+            <h2>Personal Information</h2>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
 
-<p>I, <span id="fullName"></span>, of <span id="address"></span>, declare this to be my last will and testament.</p>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
 
-<h2>Personal Property</h2>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
 
-<p>I give all of my personal property, including my household furnishings, clothing, and personal effects, to my spouse, <span id="spouseName"></span>, if they survive me. If my spouse does not survive me, I give my personal property to my children, <span id="childNames"></span>, in equal shares. If any of my children do not survive me, their share shall be distributed equally among their surviving children.</p>
+        <div class="section">
+            <h2>Executor</h2>
+            <label for="executorName">Name of Executor:</label>
+            <input type="text" id="executorName" name="executorName" required>
 
-<h2>Real Property</h2>
+            <label for="executorAddress">Address of Executor:</label>
+            <input type="text" id="executorAddress" name="executorAddress" required>
+        </div>
 
-<p>I give all of my real property, wherever located, to my spouse, <span id="spouseName"></span>, if they survive me. If my spouse does not survive me, I give my real property to my children, <span id="childNames"></span>, in equal shares. If any of my children do not survive me, their share shall be distributed equally among their surviving children.</p>
+        <div class="section">
+            <h2>Beneficiaries</h2>
+            <label for="beneficiaries">List Beneficiaries and Their Inheritance:</label>
+            <textarea id="beneficiaries" name="beneficiaries" rows="4" required></textarea>
+        </div>
 
-<h2>Executor</h2>
+        <div class="section">
+            <h2>Additional Instructions</h2>
+            <label for="instructions">Any Additional Instructions or Wishes:</label>
+            <textarea id="instructions" name="instructions" rows="4"></textarea>
+        </div>
 
-<p>I appoint <span id="executorName"></span> to serve as the executor of this will. If they are unable or unwilling to serve, I appoint <span id="alternateExecutorName"></span> as alternate executor.</p>
+        <div class="section">
+            <h2>Signature</h2>
+            <label for="signature">Signature:</label>
+            <input type="text" id="signature" name="signature" placeholder="Type your name here as signature" required>
 
-<h2>Witnesses</h2>
+            <label for="witness1">Witness 1 Name:</label>
+            <input type="text" id="witness1" name="witness1" required>
 
-<p>This will is executed by me in the presence of the witnesses, who have signed their names as witnesses in my presence and in the presence of each other.</p>
+            <label for="witness2">Witness 2 Name:</label>
+            <input type="text" id="witness2" name="witness2" required>
+        </div>
 
-<p>Signed this <span id="date"></span> day of <span id="month"></span>, <span id="year"></span>.</p>
-
-<p><span id="fullName"></span></p>
-
-<p>Witness 1: <span id="witness1Name"></span><br>
-Address: <span id="witness1Address"></span></p>
-
-<p>Witness 2: <span id="witness2Name"></span><br>
-Address: <span id="witness2Address"></span></p>
+        <div class="section">
+            <h2>Disclaimer</h2>
+            <p>This form is for illustrative purposes only and should not be used as a legal document without review by a legal professional.</p>
+        </div>
+    </form>
+</body>
+</html>
